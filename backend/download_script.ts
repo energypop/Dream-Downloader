@@ -12,7 +12,7 @@ interface UrlRequestBody {
 }
 
 // Endpoint to handle POST requests
-app.post('/api/some-endpoint', (req: Request<{}, {}, UrlRequestBody>, res: Response) => {
+app.post('/120.0.0.1:8000/endpoint', (req: Request<{}, {}, UrlRequestBody>, res: Response) => {
   const { url } = req.body; // Destructure the URL from the request body
 
   if (!url) {
