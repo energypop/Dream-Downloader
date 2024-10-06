@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <meta name="author" content="Dreampop">
+    <meta name="robots" content="noindex"> 
+    <meta name="color-scheme" content="light dark">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <title>Youtube Downloader</title>
+</head>
+<body>
+    <main class="container-fluid">
+        <h1 style="color: #1343A0">Free YouTube Downloader</h1>
+        <form action="index.php" id="youtube-link-form" method="post">
+            <fieldset>
+                <label>
+                    <input
+                        type="url"
+                        name="link"
+                        placeholder="Youtube link"
+                    />
+                    <small id="link-information">
+                        As this is a testing environment, use a video link. Avoid shorts or community links
+                    </small>
+                    <input
+                        type="submit"
+                        value="Download"
+                        id="download"
+                    />
+                </label>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
